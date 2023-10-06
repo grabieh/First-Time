@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    height: 100%;
+    background-color: black;
+    background-image: url("./Gifted.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    margin: 8rem;
+    font-size: 4rem;
+    font-weight: 400;
+    
+}
+
+.container-elements {
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.numbers {
+    font-size: 6rem;
+    margin-bottom: 1vh;
+    line-height: 1;
+    
+}
+
+.contain {
+    margin-left: 6vh;
+    margin-right: 6vh;
+    text-align: center;
+}
+
